@@ -12,3 +12,4 @@ C:\Users\jttitoqu\Downloads\CURSOS-NTT\Estructura Basica\Ordenamiento\obj\Debug\
 C:\Users\jttitoqu\Downloads\CURSOS-NTT\Estructura Basica\Ordenamiento\obj\Debug\net10.0\Ordenamiento.pdb
 C:\Users\jttitoqu\Downloads\CURSOS-NTT\Estructura Basica\Ordenamiento\obj\Debug\net10.0\Ordenamiento.genruntimeconfig.cache
 C:\Users\jttitoqu\Downloads\CURSOS-NTT\Estructura Basica\Ordenamiento\obj\Debug\net10.0\ref\Ordenamiento.dll
+C:\Users\jttitoqu\Downloads\CURSOS-NTT\Estructura Basica\Ordenamiento\obj\Debug\net10.0\Ordenamiento.sourcelink.json
