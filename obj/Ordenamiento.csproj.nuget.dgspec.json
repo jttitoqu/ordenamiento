@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jttitoqu\\Downloads\\CURSOS-NTT\\Estructura Basica\\Ordenamiento\\Ordenamiento.csproj": {}
+    "c:\\Users\\jttitoqu\\Downloads\\CURSOS-NTT\\Estructura Basica\\Ordenamiento\\Ordenamiento.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jttitoqu\\Downloads\\CURSOS-NTT\\Estructura Basica\\Ordenamiento\\Ordenamiento.csproj": {
+    "c:\\Users\\jttitoqu\\Downloads\\CURSOS-NTT\\Estructura Basica\\Ordenamiento\\Ordenamiento.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jttitoqu\\Downloads\\CURSOS-NTT\\Estructura Basica\\Ordenamiento\\Ordenamiento.csproj",
+        "projectUniqueName": "c:\\Users\\jttitoqu\\Downloads\\CURSOS-NTT\\Estructura Basica\\Ordenamiento\\Ordenamiento.csproj",
         "projectName": "Ordenamiento",
-        "projectPath": "C:\\Users\\jttitoqu\\Downloads\\CURSOS-NTT\\Estructura Basica\\Ordenamiento\\Ordenamiento.csproj",
+        "projectPath": "c:\\Users\\jttitoqu\\Downloads\\CURSOS-NTT\\Estructura Basica\\Ordenamiento\\Ordenamiento.csproj",
         "packagesPath": "C:\\Users\\jttitoqu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jttitoqu\\Downloads\\CURSOS-NTT\\Estructura Basica\\Ordenamiento\\obj\\",
+        "outputPath": "c:\\Users\\jttitoqu\\Downloads\\CURSOS-NTT\\Estructura Basica\\Ordenamiento\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\jttitoqu\\AppData\\Roaming\\NuGet\\NuGet.Config"

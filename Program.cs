@@ -1,12 +1,12 @@
 ﻿List<int> listaEnteros = new List<int> {4,8,1,9};
 
-// MostrarNumeroMayorYMenor(listaEnteros);
-// Console.WriteLine("El promedio es:" + CalcularPromedio(listaEnteros));
-// OrdernarAscendente(listaEnteros);
-// OrdernarDescendente(listaEnteros);
-// BuscarNumero(listaEnteros,1)
+MostrarNumeroMayorYMenor(listaEnteros);
+CalcularPromedio(listaEnteros);
+OrdernarAscendente(listaEnteros);
+OrdernarDescendente(listaEnteros);
+BuscarNumero(listaEnteros,1);
 
-static double CalcularPromedio(List<int> lista)
+static void CalcularPromedio(List<int> lista)
 
 {
     if(lista == null || lista.Count == 0)
@@ -21,7 +21,7 @@ static double CalcularPromedio(List<int> lista)
         acumulador = acumulador + numero;
     }
     
-    return acumulador/lista.Count;
+    Console.WriteLine($"El promedio es: {acumulador/lista.Count}");
 }
 
 static void MostrarNumeroMayorYMenor(List<int> lista)
@@ -52,7 +52,7 @@ static void MostrarNumeroMayorYMenor(List<int> lista)
     Console.WriteLine($"El numero menor es {menor} y el numero mayor es {mayor}");
 }
 
-static void OrdernarAscendente(List<int> lista)//9 6 3 1
+static void OrdernarAscendente(List<int> lista)
 {
     int temp;
     for (int i = 0; i < lista.Count - 1; i++)
@@ -72,7 +72,7 @@ static void OrdernarAscendente(List<int> lista)//9 6 3 1
     
 }
 
-static void OrdernarDescendente(List<int> lista)//4 8 3 9
+static void OrdernarDescendente(List<int> lista)
 {
     int temp;
     for (int i = 0; i < lista.Count - 1; i++)
@@ -94,15 +94,17 @@ static void OrdernarDescendente(List<int> lista)//4 8 3 9
 
 static void BuscarNumero(List<int> lista, int numero)
 {
+    bool existe = false;
     for (int i = 0; i < lista.Count - 1; i++)
     {
         if (numero == lista[i])
         {
-            Console.WriteLine($"El numero buscado existe en la lista");
+            existe = true;
+            break;
         }
-        else
-        {
-            Console.WriteLine($"El numero buscado no existe en la lista");
-        }
+        
     }
+
+    Console.WriteLine(existe ? "El numero si existe en la lista" : "El numero no existe en la lista");
+
 }
