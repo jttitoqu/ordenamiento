@@ -1,0 +1,14 @@
+C:\Users\jttitoqu\Downloads\CURSOS-NTT\Estructura Basica\Ordenamiento\bin\Debug\net10.0\Ordenamiento.exe
+C:\Users\jttitoqu\Downloads\CURSOS-NTT\Estructura Basica\Ordenamiento\bin\Debug\net10.0\Ordenamiento.deps.json
+C:\Users\jttitoqu\Downloads\CURSOS-NTT\Estructura Basica\Ordenamiento\bin\Debug\net10.0\Ordenamiento.runtimeconfig.json
+C:\Users\jttitoqu\Downloads\CURSOS-NTT\Estructura Basica\Ordenamiento\bin\Debug\net10.0\Ordenamiento.dll
+C:\Users\jttitoqu\Downloads\CURSOS-NTT\Estructura Basica\Ordenamiento\bin\Debug\net10.0\Ordenamiento.pdb
+C:\Users\jttitoqu\Downloads\CURSOS-NTT\Estructura Basica\Ordenamiento\obj\Debug\net10.0\Ordenamiento.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jttitoqu\Downloads\CURSOS-NTT\Estructura Basica\Ordenamiento\obj\Debug\net10.0\Ordenamiento.AssemblyInfoInputs.cache
+C:\Users\jttitoqu\Downloads\CURSOS-NTT\Estructura Basica\Ordenamiento\obj\Debug\net10.0\Ordenamiento.AssemblyInfo.cs
+C:\Users\jttitoqu\Downloads\CURSOS-NTT\Estructura Basica\Ordenamiento\obj\Debug\net10.0\Ordenamiento.csproj.CoreCompileInputs.cache
+C:\Users\jttitoqu\Downloads\CURSOS-NTT\Estructura Basica\Ordenamiento\obj\Debug\net10.0\Ordenamiento.dll
+C:\Users\jttitoqu\Downloads\CURSOS-NTT\Estructura Basica\Ordenamiento\obj\Debug\net10.0\refint\Ordenamiento.dll
+C:\Users\jttitoqu\Downloads\CURSOS-NTT\Estructura Basica\Ordenamiento\obj\Debug\net10.0\Ordenamiento.pdb
+C:\Users\jttitoqu\Downloads\CURSOS-NTT\Estructura Basica\Ordenamiento\obj\Debug\net10.0\Ordenamiento.genruntimeconfig.cache
+C:\Users\jttitoqu\Downloads\CURSOS-NTT\Estructura Basica\Ordenamiento\obj\Debug\net10.0\ref\Ordenamiento.dll
