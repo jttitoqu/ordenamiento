@@ -1,7 +1,9 @@
-﻿List<int> listaEnteros = new List<int> {5, 7, 2, 4, 9, 1};
+﻿List<int> listaEnteros = new List<int> {4,8,1,9};
 
-MostrarNumeroMayorYMenor(listaEnteros);
-Console.WriteLine("El promedio es:" + CalcularPromedio(listaEnteros));
+// MostrarNumeroMayorYMenor(listaEnteros);
+// Console.WriteLine("El promedio es:" + CalcularPromedio(listaEnteros));
+OrdernarAscendente(listaEnteros);
+OrdernarDescendente(listaEnteros);
 
 static double CalcularPromedio(List<int> lista)
 
@@ -33,7 +35,7 @@ static void MostrarNumeroMayorYMenor(List<int> lista)
 
     for (int i = 1; i < lista.Count; i++)
     {    
-        if (lista[i] > mayor)//5 7 2 ,9 3
+        if (lista[i] > mayor)
         {
             mayor = lista[i];
         }
@@ -41,10 +43,50 @@ static void MostrarNumeroMayorYMenor(List<int> lista)
 
     for (int i = 1; i < lista.Count; i++)
     {    
-        if (lista[i] < menor)//5 7 2 ,9 3
+        if (lista[i] < menor)
         {
             menor = lista[i];
         }
     }
     Console.WriteLine($"El numero menor es {menor} y el numero mayor es {mayor}");
+}
+
+static void OrdernarAscendente(List<int> lista)//9 6 3 1
+{
+    int temp;
+    for (int i = 0; i < lista.Count - 1; i++)
+    {
+        for (int j = 0; j < lista.Count - 1 - i; j++)
+        {
+            if(lista[j] > lista[j + 1])
+            {
+                temp = lista[j + 1];
+                lista[j + 1] = lista[j];
+                lista[j] = temp;
+            }
+        }
+    }
+
+    Console.WriteLine($"Orden Ascendente:" + string.Join(",",lista));
+    
+}
+
+static void OrdernarDescendente(List<int> lista)//4 8 3 9
+{
+    int temp;
+    for (int i = 0; i < lista.Count - 1; i++)
+    {
+        for (int j = 0; j < lista.Count - 1 - i; j++)
+        {
+            if(lista[j] < lista[j + 1])
+            {
+                temp = lista[j + 1];
+                lista[j + 1] = lista[j];
+                lista[j] = temp;
+            }
+        }
+    }
+
+    Console.WriteLine($"Orden Ascendente:" + string.Join(",",lista));
+    
 }
